@@ -1,0 +1,19 @@
+# Ficha de un trabajo en Blender.
+# Copia este archivo a la carpeta del trabajo (por ejemplo renders/2026-11-taza-procedimental/)
+# y reemplaza los valores. Los campos marcados como obligatorios no pueden quedar vacíos.
+
+titulo: Nombre del trabajo                # obligatorio
+fecha: 2026-11-20                         # obligatorio, formato AAAA-MM-DD
+software:                                 # obligatorio
+  - Blender 4.2
+motor: Cycles                             # obligatorio: Cycles, EEVEE, Workbench u Otro
+descripcion: >-                           # obligatorio: dos o tres líneas, qué es y qué aprendiste
+  Qué es el trabajo, cómo lo resolviste y qué técnica quisiste practicar.
+
+# Opcionales
+tecnicas:
+  - Geometry Nodes
+  - Materiales procedimentales
+tiempo_render: 3 min por cuadro
+imagen_principal: render-final.png        # si no lo indicas, se usa la primera imagen en orden alfabético
+destacado: false                          # true para mostrarlo en la portada

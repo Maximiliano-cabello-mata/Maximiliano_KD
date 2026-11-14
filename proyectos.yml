@@ -1,0 +1,41 @@
+# Proyectos que aparecen en la portada (README.md).
+# El flujo "Actualizar proyectos" consulta la API de GitHub cada semana para
+# mostrar el lenguaje principal y la fecha de la última actualización.
+#
+# Para agregar un proyecto, copia un bloque y cambia los datos.
+#   repo:        nombre del repositorio dentro de mi cuenta
+#   nombre:      cómo quiero que se llame en la tabla
+#   descripcion: una línea; si se deja vacía, se usa la descripción de GitHub
+#   stack:       tecnologías principales
+
+usuario: Maximiliano-cabello-mata
+
+proyectos:
+  - repo: amatista-g7b-etl
+    nombre: Amatista · G7B
+    descripcion: >-
+      Motor de datos de Amatista: extrae 33 fuentes en línea, mide el
+      rendimiento de Blender en distintos equipos y guarda todo en un cubo
+      versionado con 3,003 mediciones.
+    stack: Python · Scrapy · DuckDB · Parquet · MongoDB · Azure · GitHub Actions
+
+  - repo: amatista-motor-
+    nombre: Amatista · Motor
+    descripcion: >-
+      Motor que evalúa lo que el alumno hace en Blender, con un complemento
+      para Blender y prácticas descritas en JSON.
+    stack: Python · bpy (API de Blender) · pytest
+
+  - repo: amatista-api-
+    nombre: Amatista · API
+    descripcion: >-
+      API de la plataforma: cuentas, progreso, contenido, clases, evaluación
+      y base de datos; también sirve el complemento de Blender.
+    stack: Python · FastAPI · Oracle · SQLite · Caddy
+
+  - repo: sidp-core
+    nombre: SIDP
+    descripcion: >-
+      Base técnica de un sistema de gestión escolar para una primaria, pensado
+      para tres equipos en red local sin servidor dedicado.
+    stack: Python · SQLite · TLS
