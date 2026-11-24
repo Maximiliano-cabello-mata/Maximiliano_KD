@@ -44,7 +44,7 @@ Mi proyecto principal es **[Amatista 3D](https://amatista-3d.tech)**, una plataf
 | [**Amatista · API**](https://github.com/Maximiliano-cabello-mata/amatista-api-) | API de la plataforma: cuentas, progreso, contenido, clases, evaluación y base de datos; también sirve el complemento de Blender. | Python · FastAPI · Oracle · SQLite · Caddy | nov 2026 |
 | [**SIDP**](https://github.com/Maximiliano-cabello-mata/sidp-core) | Base técnica de un sistema de gestión escolar para una primaria, pensado para tres equipos en red local sin servidor dedicado. | Python · SQLite · TLS | oct 2026 |
 
-<sub>Tabla actualizada automáticamente el 16/11/2026.</sub>
+<sub>Tabla actualizada automáticamente el 24/11/2026.</sub>
 <!-- PROYECTOS:FIN -->
 
 ## Renders y trabajo en Blender
